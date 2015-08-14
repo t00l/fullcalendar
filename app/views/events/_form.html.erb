@@ -10,8 +10,25 @@
       </ul>
     </div>
   <% end %>
+  
+  <div class="field">
+    <%= f.text_field :title, placeholder: "Nombre" %>
+  </div>
+
+  <div class="field">
+    <%= f.text_field :description, placeholder: "Descripción" %>
+  </div>
+
+  <div class="field">
+    <%= f.text_field :start_time, placeholder: "start" %>
+  </div>
+
+  <div class="field">
+    <%= f.text_field :end_time, placeholder: "over" %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>
