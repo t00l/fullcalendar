@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150814225916) do
+ActiveRecord::Schema.define(version: 20150814233707) do
 
   create_table "calendars", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -25,6 +25,8 @@ ActiveRecord::Schema.define(version: 20150814225916) do
     t.string   "description"
     t.datetime "start_time"
     t.datetime "end_time"
+    t.datetime "start_hour"
+    t.datetime "end_hour"
   end
 
 end
