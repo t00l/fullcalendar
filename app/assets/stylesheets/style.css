@@ -1,0 +1,12 @@
+.fc-today{
+   background-color: black;
+}
+
+#calendar .fc-content{
+	background-color: #black;
+	font-size: 100%;
+}
+
+#calendar .fc-event{
+	box-shadow: 2px 2px 2px #706868;
+}
